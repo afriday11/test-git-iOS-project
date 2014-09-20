@@ -21,6 +21,7 @@
 		15DFA95E19CD18E100C81258 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DFA94019CD18E100C81258 /* UIKit.framework */; };
 		15DFA96619CD18E100C81258 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15DFA96419CD18E100C81258 /* InfoPlist.strings */; };
 		15DFA96819CD18E100C81258 /* git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DFA96719CD18E100C81258 /* git_testTests.m */; };
+		15DFA97319CD1F4E00C81258 /* OFbaso;infasdfTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DFA97219CD1F4E00C81258 /* OFbaso;infasdfTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		15DFA96319CD18E100C81258 /* git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "git testTests-Info.plist"; sourceTree = "<group>"; };
 		15DFA96519CD18E100C81258 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15DFA96719CD18E100C81258 /* git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git_testTests.m; sourceTree = "<group>"; };
+		15DFA97119CD1F4E00C81258 /* OFbaso;infasdfTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OFbaso;infasdfTableViewController.h"; sourceTree = "<group>"; };
+		15DFA97219CD1F4E00C81258 /* OFbaso;infasdfTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OFbaso;infasdfTableViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		15DFA93019CD18E100C81258 = {
 			isa = PBXGroup;
 			children = (
+				15DFA97119CD1F4E00C81258 /* OFbaso;infasdfTableViewController.h */,
+				15DFA97219CD1F4E00C81258 /* OFbaso;infasdfTableViewController.m */,
 				15DFA94219CD18E100C81258 /* git test */,
 				15DFA96119CD18E100C81258 /* git testTests */,
 				15DFA93B19CD18E100C81258 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15DFA94919CD18E100C81258 /* main.m in Sources */,
+				15DFA97319CD1F4E00C81258 /* OFbaso;infasdfTableViewController.m in Sources */,
 				15DFA94D19CD18E100C81258 /* OFAppDelegate.m in Sources */,
 				15DFA95319CD18E100C81258 /* OFViewController.m in Sources */,
 			);
